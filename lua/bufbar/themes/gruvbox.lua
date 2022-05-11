@@ -89,16 +89,16 @@ return {
   },
   tabs = {
     inactive = {
-      guifg = colors.white.gui,
+      guifg = colors.grey_menu.gui,
       guibg = colors.black.gui,
       ctermfg = colors.white.cterm,
       ctermbg = colors.black.cterm,
     },
     active = {
       guifg = colors.black.gui,
-      guibg = colors.white.gui,
+      guibg = colors.grey_menu.gui,
       ctermfg = colors.black.cterm,
-      ctermbg = colors.white.cterm,
+      ctermbg = colors.grey_menu.cterm,
     },
   },
 }
