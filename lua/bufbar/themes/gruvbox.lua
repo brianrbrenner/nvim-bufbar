@@ -91,7 +91,7 @@ return {
     inactive = {
       guifg = colors.grey_menu.gui,
       guibg = colors.black.gui,
-      ctermfg = colors.white.cterm,
+      ctermfg = colors.grey_menu.cterm,
       ctermbg = colors.black.cterm,
     },
     active = {
