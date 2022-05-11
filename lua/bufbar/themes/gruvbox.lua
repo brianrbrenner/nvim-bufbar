@@ -15,9 +15,9 @@ local colors = {
 return {
   separator = {
     normal = {
-      guifg = colors.grey_comment.gui,
+      guifg = colors.grey_menu.gui,
       guibg = colors.grey_cursor.gui,
-      ctermfg = colors.grey_comment.cterm,
+      ctermfg = colors.grey_menu.cterm,
       ctermbg = colors.grey_cursor.cterm,
     },
     emphasized = {
