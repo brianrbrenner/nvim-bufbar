@@ -30,9 +30,9 @@ return {
   listed = {
     inactive = {
       guifg = colors.green.gui,
-      guibg = colors.grey_cursor.gui,
+      guibg = colors.black.gui,
       ctermfg = colors.green.cterm,
-      ctermbg = colors.grey_cursor.cterm,
+      ctermbg = colors.black.cterm,
     },
     active = {
       guifg = colors.black.gui,
@@ -41,16 +41,16 @@ return {
       ctermbg = colors.green.cterm,
     },
     active_low = {
-      guifg = colors.grey_menu.gui,
+      guifg = colors.black.gui,
       guibg = colors.green.gui,
-      ctermfg = colors.grey_menu.cterm,
+      ctermfg = colors.black.cterm,
       ctermbg = colors.green.cterm,
     },
   },
   modified = {
     inactive = {
       guifg = colors.blue.gui,
-      guibg = colors.grey_cursor.gui,
+      guibg = colors.black.gui,
       ctermfg = colors.blue.cterm,
       ctermbg = colors.grey_cursor.cterm,
     },
@@ -61,9 +61,9 @@ return {
       ctermbg = colors.blue.cterm,
     },
     active_low = {
-      guifg = colors.grey_menu.gui,
+      guifg = colors.black.gui,
       guibg = colors.blue.gui,
-      ctermfg = colors.grey_menu.cterm,
+      ctermfg = colors.black.cterm,
       ctermbg = colors.blue.cterm,
     },
   },
@@ -90,9 +90,9 @@ return {
   tabs = {
     inactive = {
       guifg = colors.white.gui,
-      guibg = colors.grey_cursor.gui,
+      guibg = colors.black.gui,
       ctermfg = colors.white.cterm,
-      ctermbg = colors.grey_cursor.cterm,
+      ctermbg = colors.black.cterm,
     },
     active = {
       guifg = colors.black.gui,
