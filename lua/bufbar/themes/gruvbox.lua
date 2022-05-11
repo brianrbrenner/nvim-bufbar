@@ -16,15 +16,15 @@ return {
   separator = {
     normal = {
       guifg = colors.grey_menu.gui,
-      guibg = colors.grey_cursor.gui,
+      guibg = colors.grey_menu.gui,
       ctermfg = colors.grey_menu.cterm,
-      ctermbg = colors.grey_cursor.cterm,
+      ctermbg = colors.grey_menu.cterm,
     },
     emphasized = {
       guifg = colors.grey_menu.gui,
-      guibg = colors.grey_cursor.gui,
+      guibg = colors.grey_menu.gui,
       ctermfg = colors.grey_menu.cterm,
-      ctermbg = colors.grey_cursor.cterm,
+      ctermbg = colors.grey_menu.cterm,
     },
   },
   listed = {
