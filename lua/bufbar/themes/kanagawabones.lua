@@ -37,7 +37,7 @@ return {
     active = {
       guifg = colors.green.gui,
       guibg = colors.black.gui,
-      ctermfg = colors.green.cterm,
+      ctermfg = colors.grey_comment.cterm,
       ctermbg = colors.black.cterm,
     },
     active_low = {
