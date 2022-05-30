@@ -29,41 +29,41 @@ return {
   },
   listed = {
     inactive = {
-      guifg = colors.black.gui,
-      guibg = colors.grey_comment.gui,
-      ctermfg = colors.black.cterm,
-      ctermbg = colors.grey_comment.cterm,
-    },
-    active = {
       guifg = colors.white.gui,
       guibg = colors.black.gui,
       ctermfg = colors.white.cterm,
       ctermbg = colors.black.cterm,
     },
-    active_low = {
-      guifg = colors.white.gui,
+    active = {
+      guifg = colors.grey_comment.gui,
       guibg = colors.black.gui,
-      ctermfg = colors.white.cterm,
+      ctermfg = colors.grey_comment.cterm,
+      ctermbg = colors.black.cterm,
+    },
+    active_low = {
+      guifg = colors.grey_comment.gui,
+      guibg = colors.black.gui,
+      ctermfg = colors.grey_comment.cterm,
       ctermbg = colors.black.cterm,
     },
   },
   modified = {
     inactive = {
-      guifg = colors.black.gui,
-      guibg = colors.grey_comment.gui,
-      ctermfg = colors.black.cterm,
-      ctermbg = colors.grey_comment.cterm,
-    },
-    active = {
       guifg = colors.white.gui,
       guibg = colors.black.gui,
       ctermfg = colors.white.cterm,
       ctermbg = colors.black.cterm,
     },
-    active_low = {
-      guifg = colors.white.gui,
+    active = {
+      guifg = colors.grey_comment.gui,
       guibg = colors.black.gui,
-      ctermfg = colors.white.cterm,
+      ctermfg = colors.grey_comment.cterm,
+      ctermbg = colors.black.cterm,
+    },
+    active_low = {
+      guifg = colors.grey_comment.gui,
+      guibg = colors.black.gui,
+      ctermfg = colors.grey_comment.cterm,
       ctermbg = colors.black.cterm,
     },
   },
