@@ -29,16 +29,16 @@ return {
   },
   listed = {
     inactive = {
-      guifg = colors.green.gui,
-      guibg = colors.black.gui,
-      ctermfg = colors.green.cterm,
-      ctermbg = colors.black.cterm,
-    },
-    active = {
       guifg = colors.black.gui,
       guibg = colors.grey_menu.gui,
       ctermfg = colors.black.cterm,
       ctermbg = colors.grey_menu.cterm,
+    },
+    active = {
+      guifg = colors.green.gui,
+      guibg = colors.black.gui,
+      ctermfg = colors.green.cterm,
+      ctermbg = colors.black.cterm,
     },
     active_low = {
       guifg = colors.black.gui,
