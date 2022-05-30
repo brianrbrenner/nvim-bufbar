@@ -30,9 +30,9 @@ return {
   listed = {
     inactive = {
       guifg = colors.white.gui,
-      guibg = colors.black.gui,
+      guibg = colors.grey_comment.gui,
       ctermfg = colors.white.cterm,
-      ctermbg = colors.black.cterm,
+      ctermbg = colors.grey_comment.cterm,
     },
     active = {
       guifg = colors.grey_comment.gui,
@@ -50,9 +50,9 @@ return {
   modified = {
     inactive = {
       guifg = colors.white.gui,
-      guibg = colors.black.gui,
+      guibg = colors.grey_comment.gui,
       ctermfg = colors.white.cterm,
-      ctermbg = colors.black.cterm,
+      ctermbg = colors.grey_comment.cterm,
     },
     active = {
       guifg = colors.grey_comment.gui,
