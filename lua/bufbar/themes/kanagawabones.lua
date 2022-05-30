@@ -31,20 +31,20 @@ return {
     inactive = {
       guifg = colors.green.gui,
       guibg = colors.black.gui,
-      ctermfg = colors.black.cterm,
+      ctermfg = colors.green.cterm,
       ctermbg = colors.black.cterm,
     },
     active = {
       guifg = colors.black.gui,
-      guibg = colors.green.gui,
+      guibg = colors.grey_menu.gui,
       ctermfg = colors.black.cterm,
-      ctermbg = colors.black.cterm,
+      ctermbg = colors.grey_menu.cterm,
     },
     active_low = {
       guifg = colors.black.gui,
       guibg = colors.green.gui,
       ctermfg = colors.black.cterm,
-      ctermbg = colors.black.cterm,
+      ctermbg = colors.green.cterm,
     },
   },
   modified = {
