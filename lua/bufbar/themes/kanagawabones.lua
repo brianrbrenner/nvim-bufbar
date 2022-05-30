@@ -35,7 +35,7 @@ return {
       ctermbg = colors.grey_menu.cterm,
     },
     active = {
-      guifg = colors.green.gui,
+      guifg = colors.grey_comment.gui,
       guibg = colors.black.gui,
       ctermfg = colors.grey_comment.cterm,
       ctermbg = colors.black.cterm,
